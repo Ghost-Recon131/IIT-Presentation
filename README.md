@@ -27,8 +27,8 @@ https://github.com/Ghost-Recon131/IIT-Presentation
 
 
 ## YouTube Video URL
-TBD
+https://youtu.be/cqN-QEwUebc
 
 
 ## MS Teams Video Download URL
-TBD
+https://rmiteduau.sharepoint.com/:v:/s/IITCOSC1078GroupAssignments/ETAWmC6SbItLhzDoddSVAl0BhYiYpBwxO4EH-9SiPe1LkQ?e=y08AOh
