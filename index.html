@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+<iframe src="./header.html" frameborder="0" width="100%"></iframe>
+<h2>Introduction to IT Project Video Team Name -- PBNJ</h2>
+
+<div class="detail_content">
+
+</div>
+
+<div class="main">
+    <div class="detail" id="Career Plans">
+        <div class="detail_content">
+            Below is our group video, hosted on YouTube.
+            <br></br>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+        <div class="detail_content">
+            Alternatively, it can be downloaded via the following MS Teams link:
+            <a href="PUT LINK HERE"> TODO</a>
+            <br></br>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+<script>
+    $("a").click(function () {
+        console.log($($(this).attr("href")).offset().top);
+        $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top - 100 + "px"}, 500);
+
+        return false;
+
+    });
+</script>
+
+</html>

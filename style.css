@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    transition: all 0.4s;
+    background: #E4E4E4;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+.nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px #ccc;
+    align-items: center;
+}
+
+.nav .item{
+    flex: 1;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a{
+    color: #000;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: #409EFF;
+    text-shadow: 5px 5px 5px #409EFF;
+}
+
+h2{
+    text-align: center;
+    line-height: 80px;
+    color: #409EFF;
+    text-shadow: 5px 5px 10px #409EFF;
+    font-size: 36px;
+}
+
+.main{
+    width: 60%;
+    min-height: 500px;
+    margin: 0px auto;
+}
+
+.sort{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.sort_title{
+    width: 50%;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sort_title a{
+    display: block;
+    width: 90%;
+    height: 120px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    line-height: 120px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #e0e0e0;
+    transition: all 0.4s;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.sort_title a:hover{
+    color: #409EFF;
+    text-shadow: 5px 5px 5px #409EFF;
+    box-shadow:  10px 10px 20px #bebebe,
+             -10px -10px 20px #ffffff;
+}
+
+.detail_title{
+    color: #409EFF;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 10px 10px 20px #409EFF;
+}
+
+.detail_subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #409EFF;
+}
+
+.detail_subtitle2{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #4240ff;
+}
+
+.detail_subtitle3{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #a240ff;
+}
+
+.detail_subtitle4{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #a240ff;
+}
+
+.detail_content{
+    line-height: 40px;
+    text-indent: 2em;
+    font-weight: 600;
+}
+
+.detail_line{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #409EFF;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.jump{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+}
+
+.jump a{
+    display: block;
+    cursor: pointer;
+    color: #000;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #e0e0e0;
+    transition: all 0.4s;
+    box-shadow:  20px 20px 20px #bebebe;
+}
+
+.jump a:hover{
+    color: #409EFF;
+    text-shadow: 5px 5px 5px #409EFF;
+    box-shadow:  10px 10px 20px #bebebe,
+             -10px -10px 20px #ffffff;
+}
+
+img{
+    display: block;
+}
+
+.article_nav{
+    position: fixed;
+    left: 20px;
+    width: 215px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  0 0 10px #bebebe;
+}
+
+.article_item{
+    display: block;
+    cursor: pointer;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.article_item:hover{
+    color: #409EFF;
+    text-shadow: 5px 5px 5px #409EFF;
+}
+
+table {
+  font-family: "Times New Roman";
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid grey;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  text-align: left;
+}
+
+pre {
+  font-family: "Times New Roman";
+  white-space: pre-line;
+  text-align: left;
+}
