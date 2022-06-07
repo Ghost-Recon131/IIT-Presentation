@@ -19,8 +19,16 @@ Phoebe Pritchard - s3780921
 Yuxuan Jia - s3939744
 
 ## GitHub Pages URL
-TBD
+https://ghost-recon131.github.io/IIT-Presentation/
 
 
 ## GitHub Repository URL
+https://github.com/Ghost-Recon131/IIT-Presentation
+
+
+## YouTube Video URL
+TBD
+
+
+## MS Teams Video Download URL
 TBD
